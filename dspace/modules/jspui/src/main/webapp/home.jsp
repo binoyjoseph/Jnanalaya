@@ -42,6 +42,7 @@
 <%@ page import="org.dspace.content.Item" %>
 <%@ page import="org.dspace.services.ConfigurationService" %>
 <%@ page import="org.dspace.services.factory.DSpaceServicesFactory" %>
+<%@ page import="org.jnanalaya.app.util.FileUtil"%>
 
 <%
     List<Community> communities = (List<Community>) request.getAttribute("communities");
@@ -51,6 +52,7 @@
     NewsService newsService = CoreServiceFactory.getInstance().getNewsService();
     String topNews = newsService.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
     String sideNews = newsService.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+    String scripturetree = FileUtil.readFile("/jnanalaya/scripturetree.html");
 
     ConfigurationService configurationService = DSpaceServicesFactory.getInstance().getConfigurationService();
     
@@ -203,9 +205,9 @@ if (submissions != null && submissions.count() > 0)
 <%
 }
 %>
-    <!-- div class="col-md-4">
-        <%= sideNews %>
-    </div -->
+    <div>
+        <%= scripturetree %>
+    </div>
 </div>
 
 <div class="container">

@@ -32,15 +32,10 @@
 
 <body>
     <dspace:layout locbar="nolink" titlekey="About">
-    <div class="about" role="main">
-          <div class="container">
-            <div class="row primary-wrapper" id="maincontent">
-
-              <%= textFromFile %>
-
+      <div class="about" role="main">
+        <div class="row primary-wrapper" id="maincontent">
+          <%= textFromFile %>
         </div>
       </div>
-    </div>
-    <p><a href="<%= request.getContextPath() %>/"><fmt:message key="jsp.general.gohome"/></a></p>
     </dspace:layout>
 </body>
