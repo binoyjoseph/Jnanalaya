@@ -45,7 +45,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><%= siteName %> - Largest repository on Hinduism</title>
+        <title><%= siteName %> - The largest repository on Hinduism</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="Generator" content="<%= generator %>" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -190,7 +190,7 @@
          About<b class="caret"></b></a>
          <ul data-no-collapse="true" aria-labelledby="about-dropdown-toggle" role="menu"
          class="dropdown-menu">
-          <li><a href="<%= request.getContextPath() %>/about">About Jnanalaya</a></li>
+          <li><a href="<%= request.getContextPath() %>/about">About Nithyananda Library</a></li>
           <li><a href="<%= request.getContextPath() %>/founder">Founder</a></li>
           <li><a href="<%= request.getContextPath() %>/vision">Vision and Mission</a></li>
          </ul>
@@ -220,8 +220,8 @@
     <!-- #### Jnanalaya page big header -->
     <div class="col-sm-6 col-sm-pull-6">
      <div class="navbar-header">
-      <a class="navbar-brand" href="<%= request.getContextPath() %>">Kailaasa Nithyananda Jnanalaya</a>
-      <div class="tagline">Largest repository on Hinduism</div>
+      <a class="navbar-brand" href="<%= request.getContextPath() %>"><%= siteName %></a>
+      <div class="tagline">The largest repository on Hinduism</div>
       <div class="navbar-header visible-xs hidden-sm hidden-md hidden-lg">
        <ul class="nav nav-pills"></ul>
       </div>

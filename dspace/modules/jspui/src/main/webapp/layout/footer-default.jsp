@@ -44,7 +44,7 @@
 	<div class="row">
 	  <div class="col-sm-3 nav-list">
 		<h5>
-		  Explore NJHS
+		  Explore Nithyananda Library
 		</h5>
 		<ul class="nav">
 		  <li><a href="<%= request.getContextPath() %>/">Home</a></li>
@@ -58,7 +58,7 @@
 	  </div>
 	  <div class="col-sm-3 nav-list">
 		<h5>
-		  About NJHS
+		  About Nithyananda Library
 		</h5>
 		<ul class="nav">
 		  <li><a href="<%= request.getContextPath() %>/about">About</a></li>
