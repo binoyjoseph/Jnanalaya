@@ -82,10 +82,13 @@
           <div class="col-sm-7">
             <div class="well intro-text">
                <p class="lead">
-                 <strong>Kailaasa Nithyananda Library</strong>, under its unique project seeks
-                  to unearth and preserve the source manuscripts on Hinduism.
-                  Sanatana Hindu Dharma being the source of estimated 20 million source manuscripts,
-                   possesses the largest collection on religious text.
+                 <strong>Kailaasa Nithyananda Library</strong> is the
+                  world’s largest knowledge center of source scriptures,
+                   manuscripts and books on Hinduism; dedicated to collecting,
+                    preserving and freely sharing 20 million Hindu texts.
+                     As foundation for the only Hindu Nation,
+                      it brings spiritual, cultural, economic legitimacy
+                       to the enlightened sciences, rituals and lifestyle.
                    <small><a href="<%= request.getContextPath() %>/about">
                    Learn more<i class="glyphicon glyphicon-chevron-right"></i></a></small>
                </p>
@@ -95,8 +98,8 @@
           <!-- #### Deposit book -->
           <div class="col-sm-4 col-sm-offset-1">
             <div class="well make-deposit">
-              <h3>Make a deposit</h3>
-              <p>Submit your document, research papers, research articles, theses and more to Nithyananda Hindu University.</p>
+              <h3>Join the Ministry of Scriptures</h3>
+              <p>Be part of the Hindu Nation, revive and spread the sacred Hindu scriptures, the Vision documents revealed by Lord Paramashiva.</p>
               <a class="btn btn-ecommons" href="<%= request.getContextPath() %>/submit">
                 Submit your work<i class="glyphicon glyphicon-chevron-right"></i></a>
               <a href="<%= request.getContextPath() %>/howtosubmit" class="submit-link btn">
