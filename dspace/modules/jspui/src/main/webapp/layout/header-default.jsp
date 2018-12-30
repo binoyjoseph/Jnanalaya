@@ -155,8 +155,8 @@
 
       <!-- #### search -->
        <div class="header-search">
-        <form action="<%= request.getContextPath() %>/discover" id="ds-search-form" class="" method="post" name=
-        "ds-search-form">
+        <form action="<%= request.getContextPath() %>/simple-search" id="ds-search-form" class="" method="get"
+         name="ds-search-form">
          <fieldset>
           <div class="input-group">
            <input name="query" class="ds-text-field form-control" type="text" placeholder="Search">
