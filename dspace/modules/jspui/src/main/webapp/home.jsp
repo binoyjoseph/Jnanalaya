@@ -91,8 +91,7 @@
                      As foundation for the only Hindu Nation,
                       it brings spiritual, cultural, economic legitimacy
                        to the enlightened sciences, rituals and lifestyle.
-                   <small><a href="<%= request.getContextPath() %>/about">
-                   Learn more<i class="glyphicon glyphicon-chevron-right"></i></a></small>
+                   
                </p>
             </div>
           </div>
@@ -102,9 +101,7 @@
             <div class="well make-deposit">
               <h3>Join the Ministry of Scriptures</h3>
               <p>Be part of the Hindu Nation, revive and spread the sacred Hindu scriptures, the Vision documents revealed by Lord Paramashiva.</p>
-              <a class="btn btn-ecommons" href="<%= request.getContextPath() %>/submit">
-                Submit your work<i class="glyphicon glyphicon-chevron-right"></i></a>
-              <a href="<%= request.getContextPath() %>/howtosubmit" class="submit-link btn">
+              <a href="<%= request.getContextPath() %>/howtosubmit" class="submit-link btn pull-right">
                 How to submit</a>
             </div>
           </div>
