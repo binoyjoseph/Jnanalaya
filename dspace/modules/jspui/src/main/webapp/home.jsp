@@ -102,10 +102,10 @@
             <div class="well make-deposit">
               <h3>Join the Ministry of Scriptures</h3>
               <p>Be part of the Hindu Nation, revive and spread the sacred Hindu scriptures, the Vision documents revealed by Lord Paramashiva.</p>
-              <a class="btn btn-ecommons" href="<%= request.getContextPath() %>/submit">
+              <a class="btn btn-ecommons" href="<%= request.getContextPath() %>/about">
                 Learn More<i class="glyphicon glyphicon-chevron-right"></i></a>
-              <a href="<%= request.getContextPath() %>/howtosubmit" class="submit-link btn">
-                How to submit</a>
+              <!-- <a href="<%= request.getContextPath() %>/howtosubmit" class="submit-link btn">
+                How to submit</a> -->
             </div>
           </div>
 
