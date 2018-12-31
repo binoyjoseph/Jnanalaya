@@ -119,7 +119,6 @@
 		<li><a href="http://nithyanandajnanalaya.org/">Nithyananda Jnanalaya</a></li>
 		<li><a href="http://satsang.nithyanandajnanalaya.org/">Ask the Avatar</a></li>
 		<li><a href="http://grantha.nithyanandajnanalaya.org/">OPAC</a></li>
-		<li><a href="http://shastra.nithyanandajnanalaya.org/">Digital Corpus</a></li>
 		<li><a href="https://nithyanandahinduuniversity.exphosted.com/">Nithyananda Hindu University</a></li>
 		<li><a href="http://nithyanandatruth.org/">Nithyananda Truth</a></li>
 		<li><a href="http://nithyananda.org/">Official Home Page </a></li>
