@@ -65,7 +65,7 @@
 		  <li><a href="<%= request.getContextPath() %>/founder">Founder</a></li>
 		  <li><a href="<%= request.getContextPath() %>/vision">Vision and Mission</a></li>
 		  <li><a href="<%= request.getContextPath() %>/statistics">Statistics</a></li>
-		  <li><a href="">Contact Us</a></li>
+		  <li><a href="<%= request.getContextPath() %>/feedback">Contact Us</a></li>
 		</ul>
 	  </div>
 	  <div class="col-sm-3 nav-list">
