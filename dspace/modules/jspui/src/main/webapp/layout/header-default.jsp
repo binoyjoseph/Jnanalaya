@@ -222,7 +222,7 @@
      <div class="navbar-header">
       <img src="<%= request.getContextPath() %>/image/swamiji_70px.png" style="position: relative;top: 25px;">
       <a class="navbar-brand" href="<%= request.getContextPath() %>"><%= siteName %></a>
-      <div class="tagline">The largest repository on Hinduism</div>
+      <div class="tagline">The largest repository on Sanatana Hinduism</div>
       <div class="navbar-header visible-xs hidden-sm hidden-md hidden-lg">
        <ul class="nav nav-pills"></ul>
       </div>
